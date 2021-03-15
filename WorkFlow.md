@@ -1,3 +1,33 @@
+
+# data-scienceto Run flask app
+pipenv shell
+export FLASK_APP=beats:APP
+flask run
+
+
+
+
+# installs for pipenv
+pipenv install flask FLASK-SQLAlchemy
+pipenv install spotipy 
+pipenv install python-dotenv
+pipenv install plotly
+pip install spotipy --upgrade
+pipenv install python-dotenv
+pipenv install simplejson
+pipenv install  flask-cors
+pipenv install plotly
+pipenv install sklearn
+
+
+
+
+
+# https://flask-cors.readthedocs.io/en/latest/
+
+# https://spotipy.readthedocs.io/en/2.13.0/
+
+
 >>> from beats.db_model import db, Song
 >>> db.init_app(app)
 >>> db.create_all()
